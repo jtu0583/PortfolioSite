@@ -65,72 +65,12 @@ p {
   padding: 15px 30px;
 }
 
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.contact-link {
-  background: var(--branding-color);
-  color: white;
-}
-
-.about-link {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-}
-
-.homepage-link {
-  color: var(--branding-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--branding-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
 .project-description {
   padding: 120px 60px;
 }
 
-.btn {
-  background: var(--branding-color);
-  color: white;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.primary-link:hover {
-  color: #f5f2fe;
+.btn-branding-outline:hover {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
