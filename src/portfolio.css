@@ -57,7 +57,7 @@ p {
   font-size: 22px;
 }
 
-.btn-branding {
+.btn-branding-outline {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -86,12 +86,12 @@ p {
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: var(--branding-color);
   text-align: center;
   display: block;
 }
@@ -108,7 +108,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--branding-color);
   font-size: 28px;
   text-decoration: none;
 }
