@@ -83,7 +83,8 @@ p {
   margin: 30px;
   text-align: center;
 }
-.btn-branding-outline {
+
+.btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
@@ -98,6 +99,18 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-link a {
+  padding: 60px;
+}
+
+.nav-link:hover {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
