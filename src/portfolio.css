@@ -245,4 +245,8 @@ footer .github-portfolio-site:hover {
   .content {
     text-align: center;
   }
+
+  .heading {
+    margin-top: 50px;
+  }
 }
